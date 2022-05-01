@@ -1,0 +1,674 @@
+/* 特喵的在给我报错，我等等都软件给你卸了 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?xu50b6');
+    src: url('fonts/icomoon.eot?xu50b6#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?xu50b6') format('truetype'),
+        url('fonts/icomoon.woff?xu50b6') format('woff'),
+        url('fonts/icomoon.svg?xu50b6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: black;
+}
+
+.beijing {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-image: url(images/bj.jpg);
+}
+
+.dingtubiao ul li {
+    float: left;
+    display: block;
+    margin-top: 50px;
+    width: 80px;
+    height: 50px;
+    font-family: 'icomoon';
+     font-size: 30px;
+    color: white;
+    margin-left: 30px;
+}
+
+ 
+
+.sou {
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    margin: 40px 0px 0px 300px;
+}
+
+.sou input {
+    float: left;
+    width: 700px;
+    height: 40px;
+    border: 0px;
+    border-right: 0px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.obox {
+    font-family: 'icomoon';
+    background-color: white;
+    float: left;
+    height: 40px;
+    width: 50px;
+    border: 0px;
+    color: skyblue;
+}
+
+.tbox {
+    float: left;
+    font-family: 'icomoon';
+    width: 50px;
+    height: 40px;
+    /* 按钮右边距-1，防止两个按钮产生的缝隙使第二个按钮掉落 */
+    margin-left: -1px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 0px;
+    background-color: white;
+    color: skyblue;
+}
+
+.beijing a {
+    text-decoration: none;
+}
+
+.wenzi {
+    width: 1400px;
+    height: 20px;
+    position: absolute;
+    bottom: 16px;
+    left: 5px;
+}
+
+.wenzi a {
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+}
+
+.b {
+    margin-left: 800px;
+}
+
+.xiaov {
+    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.xiaov:hover {
+    background-color: skyblue;
+}
+
+.erbox {
+    width: 1300px;
+    height: 150px;
+    background-color: #fff;
+    margin: 15px 0px 10px 100px;
+}
+
+li {
+    list-style: none;
+
+}
+
+.erbox ul li a {
+    font-family: 'icomoon';
+    float: left;
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-top: 15px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.erbox ul li a:hover {
+    text-decoration: underline;
+}
+
+.xuan {
+    width: 1300px;
+    height: 50px;
+    margin: 20px 0px 10px 115px;
+
+}
+
+.xuan ul li a {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    margin-top: 5px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.tou {
+    border-bottom: 2px solid green;
+}
+
+.gxh {
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: #f7f7f7;
+}
+
+.lan {
+    float: left;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #f7f7f7;
+}
+
+.xx {
+    font-family: 'icomoon';
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid cyan;
+}
+
+.zz {
+    font-family: 'icomoon';
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid cyan;
+}
+
+.xuan ul li a:hover {
+    background-color: #eaeaea;
+}
+
+.gxh:hover {
+    background-color: #eaeaea;
+}
+
+
+.lan:hover {
+    background-color: #eaeaea;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.zhuxin {
+    margin: 20px 0px 10px 115px;
+}
+
+.lunbo img {
+    border-radius: 10px;
+    width: 600px;
+    height: 270px;
+}
+
+
+.lunbo {
+    float: left;
+    position: relative;
+    width: 600px;
+    height: 270px;
+    border-radius: 10px;
+
+}
+
+.p a {
+    position: absolute;
+    bottom: 50px;
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+.p a:hover {
+    text-decoration: underline;
+}
+
+.bodian {
+    position: absolute;
+    width: 180px;
+    height: 15px;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -90px;
+}
+
+.bodian li {
+    width: 8px;
+    height: 8px;
+    background-color: #666;
+    border-radius: 8px;
+    margin-top: 3px;
+    margin-left: 9px;
+    float: left;
+}
+
+.bodian ul li.zhang {
+    width: 24px;
+    background-color: white;
+}
+
+.erhe {
+    position: relative;
+    margin-left: 15px;
+    float: left;
+    width: 300px;
+    height: 270px;
+    background-color: #eaeaea;
+    border-radius: 15px;
+}
+
+.erhe img {
+    width: 300px;
+    height: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mmp img {
+    vertical-align: middle;
+    margin: 5px 10px;
+    width: 20px;
+    height: 20px;
+}
+
+span {
+    font-size: 12px;
+}
+
+
+.erhe a {
+    display: block;
+    margin: 0px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.erhe a:hover {
+    text-decoration: underline;
+}
+
+.fu a {
+    display: block;
+    float: left;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.tmd a {
+    float: left;
+    position: absolute;
+    right: 55px;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.bll a {
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.fu a:hover {
+    background-color: #666;
+}
+
+.tmd a:hover {
+    background-color: #666;
+}
+
+.bll a:hover {
+    background-color: #666;
+}
+
+.sanhe {
+    position: relative;
+    float: left;
+    width: 350px;
+    height: 270px;
+    background-color: #bfd2ef;
+    margin-left: 20px;
+    border-radius: 15px;
+
+}
+
+.wokao {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    text-decoration: none;
+}
+
+.wtf {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    text-decoration: none;
+}
+
+.leisiwole {
+    position: absolute;
+    top: 40px;
+
+}
+
+.leisiwole ul li {
+    margin: 5px 45px 0px 45px;
+    width: 250px;
+    height: 40px;
+    background-color: #f1f5fc;
+
+}
+
+.leisiwole ul li:hover{
+    box-shadow: 2px 2px #f1f5fc;
+}
+
+/* 类名我的想不出来，麻了 */
+.s1 {
+    width: 100px;
+    height: 10px;
+    display: block;
+    float: left;
+    padding-left: 20px;
+
+}
+
+.s4 {
+    width: 100px;
+    height: 10px;
+    display: block;
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.s2 {
+    display: block;
+    float: left;
+    padding-left: 40px;
+}
+
+.s3 {
+    display: block;
+    float: left;
+    padding-left: 40px;
+    font-weight: 700;
+    color: red;
+}
+
+.dont {
+    top: 215px;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #f1f5fc;
+    border: 0;
+    margin: 10px 120px 10px 120px;
+}
+
+.erhangbox {
+    margin: 15px 50px 100px 115px;
+}
+
+.bigbox {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 270px;
+    background-color: #eaeaea;
+    border-radius: 15px;
+}
+
+.bigbox img {
+    height: 50%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.dasheng {
+    display: block;
+    margin: 10px 20px 0px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.dasheng:hover{
+    text-decoration: underline;
+}
+
+.guanggao {
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #666;
+}
+
+.youxi51 {
+    display: block;
+    position: absolute;
+    left: 50px;
+    bottom: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.xbox {
+    float: left;
+    width: 290px;
+    height: 270px;
+    margin-left: 10px;
+   
+}
+
+.xbox1 {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 130px;
+    background-color: #eaeaea;
+
+}
+
+.xbox2 {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 130px;
+    margin-top: 10px;
+    background-color: #eaeaea;
+}
+
+.tubiao1 {
+    font-size: 13px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.xbox1 .tubiao1 img {
+    vertical-align: middle;
+}
+
+.potu {
+    right: 15px;
+    top: 15px;
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+}
+
+.xbox1 a {
+    display: block;
+    margin-right: 120px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.xbox2 .tubiao1 img {
+    vertical-align: middle;
+}
+
+.xbox2 a{
+    display: block;
+    margin-right: 120px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.daboxp {
+    margin-left: 15px;
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 270px;
+    background-color: #eaeaea;
+    border-radius: 15px;
+}
+
+.daboxp img{
+    height: 50%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.lastone {
+    float: left;
+    position: relative;
+    width: 360px;
+     height: 290px;
+     margin-left: 15px;
+   background-color: #ddeeff;
+   border-radius: 15px;
+}
+.lastone img{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+.lastone a{
+    display: block;
+    margin: 10px 0px 0px 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.lastan{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+   bottom:  15px;
+   left: 50%;
+   margin-left: -60px;
+   border-radius: 30px;
+   border: 0px;
+   font-weight: 700;
+   background-color: #fff;
+}
+
+.lastdiv{
+    font-family: 'icomoon';
+    width: 300px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.jlt ul li{
+    width: 80px;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    margin-top: -15px;
+    
+}
+.jlt ul li a{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.xbox a:hover{
+    text-decoration: underline;
+}
+
+
+/* 写bug一分钟，修bug十分钟 */
